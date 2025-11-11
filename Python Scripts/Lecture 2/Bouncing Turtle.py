@@ -64,9 +64,15 @@ total = 10
 bounce = 0
 turtle.setheading(random.randint(0,360))
 while bounce < total: # A while loop, continues until the we reach a total of 10 bounces
+    # Step 1: Move the turtle forward by one step, the turtle will continue to move forward
+    forward(1)
+
+    #Step 2: get the new location of the turtle
     # This function gets the x and y position of the turtle
     x, y = turtle.pos()
     
+    # Step 3: 4 if statements - one for each wall
+    # I've written the first if statement for you
     # Follow this pattern for the other three walls
     if x >= 150: # If the turtle hits the right wall x >=150
         print("Oh no! I hit the right wall!")
@@ -91,8 +97,4 @@ while bounce < total: # A while loop, continues until the we reach a total of 10
         # Make sure to change the turtle heading using the turtle.setheading(arg) function
         #   bottom wall: 135 + random.randint(-10,10)
         
-
-    # Move forward
-    turtle.forward(1)
-
   

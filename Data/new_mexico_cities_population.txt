@@ -1,0 +1,12 @@
+Albuquerque city	560,326
+Las Cruces city	116,998
+Rio Rancho city	112,524
+Santa Fe city	90,551
+Roswell city    47,176
+Farmington city	46,262
+Hobbs city	41,061
+Clovis city	37,555
+South Valley CDP	36,605
+Carlsbad city	31,999
+Alamogordo city	31,667
+Gallup city	20,339
